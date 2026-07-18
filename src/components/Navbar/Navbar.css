@@ -1,0 +1,35 @@
+.navbar{
+    background:#0d6d32;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+.all-categories{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    background:#1f8f45;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:35px;
+    align-items:center;
+}
+
+.nav-links li{
+    cursor:pointer;
+    
+}
+
+.nav-links li:hover{
+    color:#ffe600;
+}

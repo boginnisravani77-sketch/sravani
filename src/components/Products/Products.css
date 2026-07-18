@@ -1,0 +1,40 @@
+.products{
+    width:90%;
+    margin:60px auto;
+}
+
+.products h2{
+    font-size:35px;
+    margin-bottom:30px;
+}
+
+.products-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.product-card{
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.product-card img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.product-card h3{
+    margin:15px 0;
+}
+
+.price{
+    color:#0d6d32;
+    font-size:22px;
+    font-weight:bold;
+}
