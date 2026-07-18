@@ -25,7 +25,7 @@ function App() {
     <>
       <Header />
 
-      <Navbar setCategory={setCategory} />
+      <Navbar setCategory={setcategory} />
 
       <Hero />
       <PromoSection />
